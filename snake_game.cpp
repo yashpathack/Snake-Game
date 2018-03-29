@@ -66,7 +66,7 @@ void run()
     }
 
     // Print out game over text
-    std::cout << "\t\t!!!Game over!" << std::endl << "\t\tYour score is: " << food;
+    std::cout << "\t\t!!!Game over!" << std::endl << "\t\tYour score is: " << food-3;
 
     // Stop console from closing instantly
     std::cin.ignore();
